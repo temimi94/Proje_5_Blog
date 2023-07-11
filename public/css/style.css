@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@300&display=swap');
+
 img {
     width:10rem;
 }
@@ -7,7 +9,9 @@ html,body{
     height:100%;
 }
 body {
-    margin: 0
+    margin: 0;
+    font-family: 'EB Garamond', serif !important;
+
 }
 .page {
     display: table;
@@ -61,4 +65,31 @@ div.jumbotron.blog-page{
 
 .date-blog-page{
 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black !important;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: indianred !important;
+}
+
+.jumbotron {
+    background-color: white;
+
+}
+
+.text-center > p {
+font-size: 20px;
+}
+
+.fixed-top  {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.navbar-expand-md .navbar-collapse {
 }
