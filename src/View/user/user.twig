@@ -2,7 +2,7 @@
 {% block title %}
     <div class="row">
         <div class="col text-center">
-            <h3>Mon compte</h3>
+            <h3> 👋Bonjour  {{ session.pseudo }}</h3>
         </div>
     </div>
 {% endblock %}
@@ -43,7 +43,7 @@
             </div>
 
 
-            <div class="col-lg-6 pt-2 link ">
+            <div class="col-lg-6 pt-2 link " style="margin-top: 50px;">
                 <div class="row pb-2 justify-content-center">
                     <a class="btn btn-default btn-secondary"href="index.php?page=comment&method=listMyComment">Liste de mes commentaires</a>
                 </div>
