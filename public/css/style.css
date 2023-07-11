@@ -1,104 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@300&display=swap");
 
 img {
-    width:10rem;
+  width: 10rem;
 }
 
 /** Pour que le footer se colle bien en bas **/
-html,body{
-    height:100%;
+html,
+body {
+  height: 100%;
 }
 body {
-    margin: 0;
-    font-family: 'EB Garamond', serif !important;
-
+  margin: 0;
+  font-family: "EB Garamond", serif !important;
 }
 .page {
-    display: table;
-    width: 100%;
-    height: 100%;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
 .site-header,
 .site-content,
 .site-footer {
-    display: table-row
+  display: table-row;
 }
 
-footer{
-    width:100%;
+footer {
+  width: 100%;
 }
 
 /** Card de listblog **/
-.card-body{
-    background-color:rgb(232,232,232);
+.card-body {
+  background-color: rgb(232, 232, 232);
 }
 
 /** Admin/Mon Compte **/
 
-.panel{
-    border-collapse: separate;
-    border-spacing: 1em;
-    border-color:white;
-    border-style:dashed;
-    border-radius:5%;
-    border-width:0.1em;
+.panel {
+  border-collapse: separate;
+  border-spacing: 1em;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 5%;
+  border-width: 0.1em;
 }
 
-.link{
-    border-color:white;
-    border-style:dashed;
-    border-radius:5%;
-    border-width:0.1em;
+.link {
+  border-color: white;
+  border-style: dashed;
+  border-radius: 5%;
+  border-width: 0.1em;
 }
 
-.mdp{
-    border-color:black;
-    border-style:dashed;
+.mdp {
+  border-color: black;
+  border-style: dashed;
 }
 
 /** Page des articles **/
 
-div.jumbotron.blog-page{
- padding: 1rem 4rem 2rem;
+div.jumbotron.blog-page {
+  padding: 1rem 4rem 2rem;
 }
 
-.date-blog-page{
-
+.date-blog-page {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white !important;
-    font-weight: 600;
-    font-size: 18px;
-    
+  color: white !important;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #D9E5D6 !important;
+  color: #d9e5d6 !important;
 }
 
 .jumbotron {
-    background-color: white;
-
+  background-color: white;
 }
 
 .text-center > p {
-font-size: 25px !important;
-margin-top: 30px;
+  font-size: 25px !important;
+  margin-top: 30px;
 }
 
- .fixed-top  {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
-    background-color: #0FA3B1;
-} 
+.fixed-top {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  background-color: #0fa3b1;
+}
 
 .btn-warning {
-background-color: #EDDEA4;
-border-color: #EDDEA4;
+  background-color: #eddea4;
+  border-color: #eddea4;
 }
 
 .btn-warning:hover {
-    background-color: #D9E5D6;
-    border-color: #D9E5D6;
+  background-color: #d9e5d6;
+  border-color: #d9e5d6;
+}
+
+.form-contact {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.envoye {
+  background-color: #eddea4;
+  border-color: #eddea4;
+  background-color: #eddea4;
+  border-color: #eddea4;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+
+.fa-stack-2x {
+    color: #0FA3B1 !important;
+}
+
+.fa-duotone {
+    color: white !important;
 }
