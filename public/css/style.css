@@ -106,13 +106,17 @@ div.jumbotron.blog-page {
   border-radius: 10px;
 }
 
-.envoye {
+.envoye, .btn-primary {
   background-color: #eddea4;
   border-color: #eddea4;
   background-color: #eddea4;
   border-color: #eddea4;
   padding: 8px 25px;
   border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0FA3B1;
 }
 
 .fa-stack-2x {
@@ -126,4 +130,16 @@ div.jumbotron.blog-page {
 .text-center > h3 {
     background-color: #eddea4;
     margin-top: 30px;
+}
+
+.btn-success {
+    background-color: #d9e5d6;
+    border-color: #d9e5d6;
+    color:black;
+}
+
+.btn-success:hover {
+    background-color: #eddea4;
+    border-color: #eddea4;
+    color:black;
 }
