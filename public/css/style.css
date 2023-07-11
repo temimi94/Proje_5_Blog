@@ -29,11 +29,6 @@ footer {
   width: 100%;
 }
 
-/** Card de listblog **/
-.card-body {
-  background-color: rgb(232, 232, 232);
-}
-
 /** Admin/Mon Compte **/
 
 .panel {
@@ -43,6 +38,11 @@ footer {
   border-style: dashed;
   border-radius: 5%;
   border-width: 0.1em;
+}
+
+.blog-card {
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0
 }
 
 .link {
@@ -121,4 +121,9 @@ div.jumbotron.blog-page {
 
 .fa-duotone {
     color: white !important;
+}
+
+.text-center > h3 {
+    background-color: #eddea4;
+    margin-top: 30px;
 }
