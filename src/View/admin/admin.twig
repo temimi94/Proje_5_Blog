@@ -80,7 +80,8 @@
 
     {% if user is defined %}
         <hr>
-        <div class="container">
+        <section class="list-user">
+        <div class="container user">
 
                 {% for users in user %}
                 <div class="row">
@@ -107,7 +108,9 @@
                     <hr>
                 {% endfor %}
         </div>
+         </section>
     {% endif %}
+   
 
 
     {% if article is defined %}

@@ -53,6 +53,13 @@ footer {
   margin-top: 50px;
 }
 
+.user {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .btn-default {
     width:200px;
 }
