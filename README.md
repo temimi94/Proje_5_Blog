@@ -1,12 +1,10 @@
-# Projet 5 - DA PHP SF
-
-## Création d'un blog PHP - OpenclassRooms
------------------
+# Projet 5
+## Création d'un blog PHP
 
 ### Installation 
 
-1.  Lancer la commande ` git https://github.com/temimi94/Projet-5-blog.git`  
-2.  Lancer la commande `cd Projet-5-blog`  
+1.  Lancer la commande ` git clone https://github.com/temimi94/Proje_5_Blog.git`  
+2.  Lancer la commande `cd Proje_5_Blog`  
 3.  Lancer dans le terminal `composer install`  
 
 ### Remarques
