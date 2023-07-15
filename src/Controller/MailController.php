@@ -31,7 +31,7 @@ class MailController
         $mailer = new Swift_Mailer($transport);
 
         // Create a message
-        $message = (new Swift_Message('Contact Blog PHP P5 OpenClassrooms'))
+        $message = (new Swift_Message('Contact'))
             ->setFrom([$user['email'] => $user['name']])
             ->setTo(MAIL_USERNAME)
             ->setBody($user['content']);
