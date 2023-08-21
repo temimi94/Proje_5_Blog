@@ -16,7 +16,7 @@
     {
       "name": "Hamdaoui Rogaya",
       "email": "hamdaouirogoya1994@gmail.com",
-      "homepage": "",
+      "homepage": "https://github.com/temimi94/proje_5",
       "role": "Développeur PHP/Symfony"
     }
   ],
@@ -31,7 +31,8 @@
     "tracy/tracy": "^2.7",
     "ext-pdo": "*",
     "swiftmailer/swiftmailer": "^6.0",
-    "ext-openssl": "*"
+    "ext-openssl": "*",
+    "phpmailer/phpmailer": "^6.8"
   },
   "config": {
     "platform": {

@@ -38,15 +38,6 @@ class HomeController extends MainController
         }
 
         $post = $this->post->getPostArray();
-
-        $mail = $this->mail->sendContactEmail($post);
-
-        if ($mail == true) {
-
-            return $this->renderTwigSuccess($twigPage, 'Votre message nous a bien été transmis, je vous répondrais au plus tôt!');
-        }
-
-        return $this->renderTwigErr($twigPage, 'Une erreur s\'est produite lors de l\'envoi du mail');
     }
 
 }

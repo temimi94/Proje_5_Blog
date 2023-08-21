@@ -144,7 +144,7 @@
 									<a href="index.php?page=article&method=approveArticle&idArticle={{ articles.idArticle }}" class="card-link">Approuver</a>
 								{% endif %}
 								<a href="index.php?page=article&method=editArticle&idArticle={{ articles.idArticle }}" class="card-link">Modifier</a>
-								<a href="index.php?page=article&method=deleteArticle&idArticle={{ articles.idArticle }}" class="card-link">Supprimer</a>
+								<a href="index.php?page=article&method=deleteArticle&idArticle={{ articles.idArticle }}" onclick="return confirm('Voulez-vous supprimer définitivement cet article ?')" class="card-link">Supprimer</a>
 
 							</div>
 						</div>
@@ -199,7 +199,7 @@
 			<div class="container">
 				<div class="row">
 					{% for comments in comment %}
-						<div class="card" style="width: 25rem;">
+						<div class="card" style="width: 30rem; margin-top: 20px; margin-left: 20px;">
 							<div class="card-body">
 								<h5 class="card-title">Article :
 									{{ comments.title }}</h5>
@@ -216,7 +216,8 @@
 									</p>
 									<a href="index.php?page=comment&method=approveComment&idComment={{ comments.idComment }}" class="card-link">Approuver</a>
 								{% endif %}
-								<a href="index.php?page=comment&method=deleteComment&idComment={{ comments.idComment }}" class="card-link">Supprimer</a>
+								<a href="index.php?page=comment&method=deleteComment&idComment={{ comments.idComment }}" onclick="return confirm('Voulez-vous supprimer définitivement ce commentaire ?')"  class="card-link">Supprimer</a>
+							</div>
 							</div>
 						{% endfor %}
 						{% if comment is empty %}

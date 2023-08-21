@@ -76,7 +76,7 @@ class ArticleController extends MainController
 
             $this->adminSql->updateArticle($post['idArticle'], $post['title'], $post['chapo'], $post['content']);
 
-            $this->redirect('article&method=listArticle');
+            $this->redirect('article&method=listAdmin');
         }
 
         /*Si $_POST est vide, renvois sur formulaire pour saisir les données à changer */
@@ -102,7 +102,7 @@ class ArticleController extends MainController
         $idArticle = $this->get->getGetVar('idArticle');
         $this->adminSql->deleteArticle($idArticle);
 
-        $this->redirect('article&method=listArticle');
+        $this->redirect('article&method=listAdmin');
     }
 
     /**
@@ -119,7 +119,7 @@ class ArticleController extends MainController
         }
 
         $this->adminSql->approveArticle($get); // Set article.validated to 1. 0 is non approuved article
-        $this->redirect('article&method=listArticle');
+        $this->redirect('article&method=listAdmin');
     }
 
 

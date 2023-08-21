@@ -40,11 +40,6 @@ abstract class ImportController
     protected $cookie;
 
     /**
-     * @var MailController
-     */
-    protected $mail;
-
-    /**
      * @var AdminModel
      */
     protected $adminSql;
@@ -73,7 +68,6 @@ abstract class ImportController
         $this->get = new GetController();
         $this->session = new SessionController();
         $this->cookie = new CookieController();
-        $this->mail = new MailController();
         $this->adminSql = new AdminModel();
         $this->articleSql = new BlogModel();
         $this->loginSql = new LoginModel();
