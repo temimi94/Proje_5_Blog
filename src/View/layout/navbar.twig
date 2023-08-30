@@ -15,7 +15,7 @@
             {% if session.rank == 'Administrateur' %}
         <li class="nav-item">
             <a class="nav-link" href="index.php?page=article&method=createArticle">Créer un article</a> {# verifier autorisation create article#}
-        </li>
+        </li>a
             {% endif %}
         {% endif %}
     </ul>
@@ -34,14 +34,16 @@
 
     {% if session.sessionId is defined %}
         <form class="nav-item">
-            <a class="btn btn-warning" href="index.php?page=login&method=logout">Logout</a>
+            <a class="btn btn-warning" href="index.php?page=login&method=logout"> 
+            <i class="fa fa-power-off"></i>
+            </a>
         </form>
     {% else %}
         <form class="nav-item">
-        <a class="btn btn-success" href="index.php?page=login">Login</a>
+        <a class="btn btn-success" href="index.php?page=login">Connexion</a>
         </form>
         <form class="nav-item">
-            <a class="btn btn-warning" href="index.php?page=login&method=register">Créer un compte</a>
+            <a class="btn btn-warning" href="index.php?page=login&method=register">S'inscrire</a>
         </form>
     {% endif %}
 </div>
