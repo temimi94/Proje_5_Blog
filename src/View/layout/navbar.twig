@@ -15,7 +15,7 @@
             {% if session.rank == 'Administrateur' %}
         <li class="nav-item">
             <a class="nav-link" href="index.php?page=article&method=createArticle">Créer un article</a> {# verifier autorisation create article#}
-        </li>a
+        </li>
             {% endif %}
         {% endif %}
     </ul>
@@ -35,7 +35,7 @@
     {% if session.sessionId is defined %}
         <form class="nav-item">
             <a class="btn btn-warning" href="index.php?page=login&method=logout"> 
-            <i class="fa fa-power-off"></i>
+           Déconnexion
             </a>
         </form>
     {% else %}

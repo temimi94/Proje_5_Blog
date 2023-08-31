@@ -25,6 +25,7 @@ body {
   display: table-row;
 }
 
+
 footer {
   width: 100%;
 }
@@ -95,6 +96,10 @@ div.jumbotron.blog-page {
 .text-center > p {
   font-size: 25px !important;
   margin-top: 30px;
+}
+
+div.form-group.form-check {
+  margin-left: -20px;
 }
 
 .fixed-top, .btn-secondary {
